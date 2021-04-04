@@ -3,8 +3,8 @@
 # version: 0.1
 # authors: Sam Saffron
 
-::BLOG_HOST = Rails.env.development? ? "0dmt.com" : "0dmt.com"
-::BLOG_DISCOURSE = Rails.env.development? ? "discuss.0dmt.com" : "discuss.0dmt.com"
+::BLOG_HOST = Rails.env.development? ? "dev.dev" : "0dmt.com"
+::BLOG_DISCOURSE = Rails.env.development? ? "l.discourse" : "discuss.0dmt.com"
 
 module ::Blog
   class Engine < ::Rails::Engine
